@@ -1,5 +1,7 @@
-bookmarks/*.txt
-dist/*.pdf
+bookmarks/*
+!bookmarks/readme.md
+dist/*
+!dist/readme.md
 .idea/*
 .DS_Store
 .vscode/*
