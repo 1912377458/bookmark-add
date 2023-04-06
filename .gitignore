@@ -1,5 +1,5 @@
-bookmarks/*
-dist/*
+bookmarks/*.txt
+dist/*.pdf
 .idea/*
 .DS_Store
 .vscode/*
