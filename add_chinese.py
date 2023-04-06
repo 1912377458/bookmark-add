@@ -14,7 +14,7 @@ def store_method(store, text,count):
     store.write('\t'*count + toHeader(text))
 
 
-file = open(r'书籍目录/概率论习题解析.txt', 'r')
+file = open(r'bookmarks/概率论习题解析.txt', 'r')
 content = file.readlines()
 # 如果存在原先的文件，则删除
 if os.path.exists("model.txt"):

@@ -24,6 +24,6 @@ for item in appendix:
         ls[level].append(pdf_out.addBookmark(''.join(text[level:len(text)-1]), int(text[len(text)-1].strip()) + offset, parent= ls[level-1][len(ls[level-1])-1]))
 
 # 将输出结果进行保存
-with open(r'chulihou/概率论解析.pdf', 'wb') as fout:
+with open(r'dist/概率论解析.pdf', 'wb') as fout:
     pdf_out.write(fout)
     
